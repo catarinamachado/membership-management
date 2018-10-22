@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.NovoSocioView">
+  <grid id="27dc6" binding="novoSocioPanel" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="48" width="530" height="372"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="ad186" class="javax.swing.JTextField" binding="numberText">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="42" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Número:"/>
+        </properties>
+      </component>
+      <component id="7be0f" class="javax.swing.JTextField" binding="nomeText">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="42" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Nome:"/>
+        </properties>
+      </component>
+      <component id="3e412" class="javax.swing.JTextField" binding="cursoText">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="42" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Curso:"/>
+        </properties>
+      </component>
+      <component id="1af16" class="javax.swing.JTextField" binding="anoText">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="42" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Ano:"/>
+        </properties>
+      </component>
+      <component id="850aa" class="javax.swing.JTextField" binding="moradaText">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="42" height="24"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="false"/>
+          <text value="Morada:"/>
+        </properties>
+      </component>
+      <component id="ebafe" class="javax.swing.JTextField" binding="numberField">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="83e57" class="javax.swing.JTextField" binding="nomeField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="73b5c" class="javax.swing.JTextField" binding="cursoField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="910b4" class="javax.swing.JTextField" binding="anoField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9a320" class="javax.swing.JTextField" binding="moradaField">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="c39af" class="javax.swing.JButton" binding="fecharBtn">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="194" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Fechar"/>
+        </properties>
+      </component>
+      <component id="f6cf8" class="javax.swing.JButton" binding="guardarBtn">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="219" height="32"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Guardar"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
