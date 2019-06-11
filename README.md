@@ -5,6 +5,12 @@ This small application allows to add new members, pay fees, view member details 
 
 It was done in Java, using Java Swing for the graphical interface.
 
+Initial menu:
+
+<div align="center">
+  <img src="https://github.com/catarinamachado/membership-management/blob/master/tex/imgs/initialMenu.png">
+</div>
+
 
 ## Contributing
 
